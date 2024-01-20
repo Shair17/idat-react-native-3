@@ -1,7 +1,8 @@
 import reactLogo from "./assets/react.svg";
 import "./App.css";
-import { Base } from "./Base";
-import { Calculadora } from "./Calculadora";
+// import { Base } from "./Base";
+// import { Calculadora } from "./Calculadora";
+import { Todo } from "./Todo";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
         <img src={reactLogo} className="logo react" alt="React logo" />
       </div>
       {/* <Base /> */}
-      <Calculadora />
+      {/* <Calculadora /> */}
+      <Todo />
     </>
   );
 }
